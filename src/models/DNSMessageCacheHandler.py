@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 
 load_dotenv()  # take environment variables from .env.
 
+
 class DNSMessageCacheHandler():
 
     # self static identification counter
@@ -147,7 +148,11 @@ class DNSMessageCacheHandler():
             JSONdata = json.load(cacheFile)
 
         # flush file
+        print(type(len(JSONdata)), type(DNSMessageCacheHandler.CACHE_CAPACITY), len(
+            JSONdata) == DNSMessageCacheHandler.CACHE_CAPACITY, len(JSONdata), DNSMessageCacheHandler.CACHE_CAPACITY)
+
         if len(JSONdata) == DNSMessageCacheHandler.CACHE_CAPACITY:
+            JSONdata = {}
             open(fileName, mode='w').close()
 
         JSONToDump = {}
