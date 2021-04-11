@@ -14,19 +14,37 @@ TOP_LEVEL_DOMAIN_PORT = int(os.environ['TOP_LEVEL_DOMAIN_PORT'])
 AUTHORITATIVE_DOMAIN_PORT = int(os.environ['AUTHORITATIVE_DOMAIN_PORT'])
 BYTES_TO_RECEIVE = int(os.environ['BYTES_TO_RECEIVE'])
 IDENTIFICATION_COUNTER = str(os.environ['IDENTIFICATION_COUNTER'])
+CACHE_FILE_LOCATION = str(os.environ['CACHE_FILE'])
 
 while True:
+    
+    # Get the input for the website URL
     websiteURL = str(input("Enter website hostname: "))
 
-    websiteDomain = websiteURL.split('.')[-1]
+    # Split it for the host and the domain
     websiteHostname = '.'.join(websiteURL.split('.')[0:-1])
+    websiteDomain = websiteURL.split('.')[-1]
 
-    # with open("cache.json", mode='r') as file:
-    #     file.keys == domainNameToFind:
+    # Check mark for the existence of data within the cache
+    cacheFound = False
 
-    # if data == None:
-    #     print("Info does not exist in cache")
-    # else:
+    with open(CACHE_FILE_LOCATION, mode='r') as file:
+        JSONdata = json.load(file)
+
+    # Checking if the data is in cache
+    for key in JSONdata:
+        if key == websiteURL:
+            # This data exists in the cache
+            print(f"From cache,\n\"{JSONdata[key]}\"\n")
+            cacheFound = True
+
+    # If the requested domain exists
+    # in the cache, proceed to the next query
+    if cacheFound:
+        continue
+
+    # This control flow indicates that the data is
+    # not in the cache
 
     # Creating a new client with IPv4/TCP settings
     client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -122,4 +140,4 @@ while True:
 
     print(ProtocolMessage.__dict__)
 
-    ProtocolMessage.DumpToCache('./data/cache.json')
+    ProtocolMessage.DumpToCache(CACHE_FILE_LOCATION)

@@ -107,5 +107,21 @@
                 "2a00:1450:4019:802::200e"
             ]
         }
+    },
+    "github.com": {
+        "A": {
+            "IPv4": [
+                "13.234.210.38"
+            ]
+        },
+        "NS": {
+            "names": [
+                "alt4.aspmx.l.google.com.",
+                "aspmx.l.google.com.",
+                "alt3.aspmx.l.google.com.",
+                "alt1.aspmx.l.google.com.",
+                "alt2.aspmx.l.google.com."
+            ]
+        }
     }
 }

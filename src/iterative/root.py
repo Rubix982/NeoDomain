@@ -17,7 +17,7 @@ load_dotenv()  # take environment variables from .env
 
 DEBUG_MODE = str(os.environ['DEBUG'])
 
-with open('../scripts/data/data.json', mode='r') as file:
+with open(str(os.environ['TOTAL_DATA']), mode='r') as file:
     data = json.load(file)
 
 topLevelDomains = []

@@ -17,7 +17,7 @@ load_dotenv()  # take environment variables from .env.
 
 DEBUG_MODE = str(os.environ['DEBUG'])
 
-with open('../scripts/data/data.json', mode='r') as file:
+with open(str(os.environ['TOTAL_DATA']), mode='r') as file:
     JSONdata = json.load(file)
 
 hostNames = []
@@ -28,14 +28,16 @@ for key in JSONdata:
         hostNames.append(hostName)
 
 serv = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
 serv.bind((str(os.environ['HOSTNAME']),
            int(os.environ['TOP_LEVEL_DOMAIN_PORT'])))
 
 serv.listen(5)
 
-while True:
+while 1:
     conn, addr = serv.accept()
     data = str(conn.recv(int(os.environ['BYTES_TO_RECEIVE'])))
+
     if not data:
         break
 
