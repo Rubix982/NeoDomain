@@ -1,0 +1,3130 @@
+{
+    "apple.com": {
+        "A": {
+            "IPv4": [
+                "17.253.144.10"
+            ],
+            "exchange": [
+                "17.253.144.10"
+            ],
+            "preference": []
+        },
+        "AAAA": {},
+        "NS": {
+            "names": [
+                "d.ns.apple.com.",
+                "a.ns.apple.com.",
+                "b.ns.apple.com.",
+                "c.ns.apple.com."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+            ],
+            "preference": [
+                "rn-mailsvcp-ppex-lapp14.apple.com.",
+                "rn-mailsvcp-ppex-lapp24.apple.com.",
+                "rn-mailsvcp-ppex-lapp34.apple.com.",
+                "ma1-aaemail-dr-lapp02.apple.com.",
+                "rn-mailsvcp-ppex-lapp35.apple.com.",
+                "rn-mailsvcp-ppex-lapp44.apple.com.",
+                "rn-mailsvcp-ppex-lapp45.apple.com.",
+                "rn-mailsvcp-ppex-lapp15.apple.com.",
+                "ma1-aaemail-dr-lapp01.apple.com.",
+                "ma1-aaemail-dr-lapp03.apple.com."
+            ]
+        }
+    },
+    "youtube.com": {
+        "A": {
+            "IPv4": [
+                "216.58.208.78"
+            ],
+            "exchange": [
+                "216.58.208.78"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2a00:1450:4018:802::200e"
+            ]
+        },
+        "NS": {
+            "names": [
+                "ns2.google.com.",
+                "ns3.google.com.",
+                "ns4.google.com.",
+                "ns1.google.com."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "30",
+                "20",
+                "50",
+                "10",
+                "40"
+            ],
+            "preference": [
+                "alt2.aspmx.l.google.com.",
+                "alt1.aspmx.l.google.com.",
+                "alt4.aspmx.l.google.com.",
+                "aspmx.l.google.com.",
+                "alt3.aspmx.l.google.com."
+            ]
+        }
+    },
+    "google.com": {
+        "A": {
+            "IPv4": [
+                "172.217.21.46"
+            ],
+            "exchange": [
+                "172.217.21.46"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2a00:1450:4019:806::200e"
+            ]
+        },
+        "NS": {
+            "names": [
+                "ns4.google.com.",
+                "ns3.google.com.",
+                "ns2.google.com.",
+                "ns1.google.com."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "40",
+                "20",
+                "30",
+                "50",
+                "10"
+            ],
+            "preference": [
+                "alt3.aspmx.l.google.com.",
+                "alt1.aspmx.l.google.com.",
+                "alt2.aspmx.l.google.com.",
+                "alt4.aspmx.l.google.com.",
+                "aspmx.l.google.com."
+            ]
+        }
+    },
+    "play.google.com": {
+        "A": {
+            "IPv4": [
+                "216.58.207.14"
+            ],
+            "exchange": [
+                "216.58.207.14"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2a00:1450:4019:802::200e"
+            ]
+        },
+        "NS": {},
+        "MX": {}
+    },
+    "support.google.com": {
+        "A": {
+            "IPv4": [
+                "172.217.21.46"
+            ],
+            "exchange": [
+                "172.217.21.46"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2a00:1450:4019:806::200e"
+            ]
+        },
+        "NS": {},
+        "MX": {}
+    },
+    "linkedin.com": {
+        "A": {
+            "IPv4": [
+                "13.107.42.14"
+            ],
+            "exchange": [
+                "13.107.42.14"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2620:1ec:21::14"
+            ]
+        },
+        "NS": {
+            "names": [
+                "dns3.p09.nsone.net.",
+                "ns4.p43.dynect.net.",
+                "ns1.p43.dynect.net.",
+                "dns2.p09.nsone.net.",
+                "dns1.p09.nsone.net.",
+                "dns4.p09.nsone.net.",
+                "ns3.p43.dynect.net.",
+                "ns2.p43.dynect.net."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "10",
+                "10",
+                "15",
+                "20"
+            ],
+            "preference": [
+                "mail-d.linkedin.com.",
+                "mail-c.linkedin.com.",
+                "mail-a.linkedin.com.",
+                "mail.linkedin.com."
+            ]
+        }
+    },
+    "blogger.com": {
+        "A": {
+            "IPv4": [
+                "216.58.207.105"
+            ],
+            "exchange": [
+                "216.58.207.105"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2a00:1450:4018:804::2009"
+            ]
+        },
+        "NS": {
+            "names": [
+                "ns4.google.com.",
+                "ns2.google.com.",
+                "ns1.google.com.",
+                "ns3.google.com."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "10",
+                "10",
+                "5"
+            ],
+            "preference": [
+                "alt1.gmr-smtp-in.l.google.com.",
+                "alt2.gmr-smtp-in.l.google.com.",
+                "gmr-smtp-in.l.google.com."
+            ]
+        }
+    },
+    "microsoft.com": {
+        "A": {
+            "IPv4": [
+                "40.113.200.201",
+                "104.215.148.63",
+                "40.76.4.15",
+                "40.112.72.205",
+                "13.77.161.179"
+            ],
+            "exchange": [
+                "40.113.200.201"
+            ],
+            "preference": []
+        },
+        "AAAA": {},
+        "NS": {
+            "names": [
+                "ns4-205.azure-dns.info.",
+                "ns2-205.azure-dns.net.",
+                "ns1-205.azure-dns.com.",
+                "ns3-205.azure-dns.org."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "10"
+            ],
+            "preference": [
+                "microsoft-com.mail.protection.outlook.com."
+            ]
+        }
+    },
+    "en.wikipedia.org": {
+        "A": {
+            "IPv4": [
+                "103.102.166.224"
+            ],
+            "exchange": [
+                "103.102.166.224"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2001:df2:e500:ed1a::1"
+            ]
+        },
+        "NS": {},
+        "MX": {}
+    },
+    "adobe.com": {
+        "A": {
+            "IPv4": [
+                "58.65.192.147",
+                "58.65.192.145"
+            ],
+            "exchange": [
+                "58.65.192.147"
+            ],
+            "preference": []
+        },
+        "AAAA": {},
+        "NS": {
+            "names": [
+                "adobe-dns-03.adobe.com.",
+                "a26-66.akam.net.",
+                "a1-217.akam.net.",
+                "a13-65.akam.net.",
+                "a10-64.akam.net.",
+                "adobe-dns-01.adobe.com.",
+                "a28-67.akam.net.",
+                "a7-64.akam.net.",
+                "adobe-dns-05.adobe.com.",
+                "adobe-dns-04.adobe.com."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "2",
+                "1"
+            ],
+            "preference": [
+                "adobe.mail.protection.outlook.com.",
+                "adobe-com.mail.protection.outlook.com."
+            ]
+        }
+    },
+    "cloudflare.com": {
+        "A": {
+            "IPv4": [
+                "104.16.133.229",
+                "104.16.132.229"
+            ],
+            "exchange": [
+                "104.16.133.229"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2606:4700::6810:84e5",
+                "2606:4700::6810:85e5"
+            ]
+        },
+        "NS": {
+            "names": [
+                "ns7.cloudflare.com.",
+                "ns5.cloudflare.com.",
+                "ns6.cloudflare.com.",
+                "ns4.cloudflare.com.",
+                "ns3.cloudflare.com."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "20",
+                "10",
+                "10"
+            ],
+            "preference": [
+                "mailstream-central.mxrecord.mx.",
+                "mailstream-west.mxrecord.io.",
+                "mailstream-east.mxrecord.io."
+            ]
+        }
+    },
+    "wordpress.org": {
+        "A": {
+            "IPv4": [
+                "198.143.164.252"
+            ],
+            "exchange": [
+                "198.143.164.252"
+            ],
+            "preference": []
+        },
+        "AAAA": {},
+        "NS": {
+            "names": [
+                "ns3.wordpress.org.",
+                "ns1.wordpress.org.",
+                "ns2.wordpress.org.",
+                "ns4.wordpress.org."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "10"
+            ],
+            "preference": [
+                "mail.wordpress.org."
+            ]
+        }
+    },
+    "maps.google.com": {
+        "A": {
+            "IPv4": [
+                "142.250.181.78"
+            ],
+            "exchange": [
+                "142.250.181.78"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2a00:1450:4019:80b::200e"
+            ]
+        },
+        "NS": {},
+        "MX": {}
+    },
+    "youtu.be": {
+        "A": {
+            "IPv4": [
+                "216.58.209.142"
+            ],
+            "exchange": [
+                "216.58.209.142"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2a00:1450:4018:804::200e"
+            ]
+        },
+        "NS": {
+            "names": [
+                "ns2.google.com.",
+                "ns1.google.com.",
+                "ns4.google.com.",
+                "ns3.google.com."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "50",
+                "40",
+                "30",
+                "10",
+                "20",
+                "10"
+            ],
+            "preference": [
+                "alt4.aspmx.l.google.com.",
+                "alt3.aspmx.l.google.com.",
+                "alt2.aspmx.l.google.com.",
+                "gmr-smtp-in.l.google.com.",
+                "alt1.aspmx.l.google.com.",
+                "aspmx.l.google.com."
+            ]
+        }
+    },
+    "docs.google.com": {
+        "A": {
+            "IPv4": [
+                "172.217.19.174"
+            ],
+            "exchange": [
+                "172.217.19.174"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2a00:1450:4019:801::200e"
+            ]
+        },
+        "NS": {},
+        "MX": {
+            "exchange": [
+                "20",
+                "30",
+                "40",
+                "10",
+                "5"
+            ],
+            "preference": [
+                "alt2.gmr-smtp-in.l.google.com.",
+                "alt3.gmr-smtp-in.l.google.com.",
+                "alt4.gmr-smtp-in.l.google.com.",
+                "alt1.gmr-smtp-in.l.google.com.",
+                "gmr-smtp-in.l.google.com."
+            ]
+        }
+    },
+    "googleusercontent.com": {
+        "A": {},
+        "AAAA": {},
+        "NS": {
+            "names": [
+                "ns4.google.com.",
+                "ns3.google.com.",
+                "ns2.google.com.",
+                "ns1.google.com."
+            ]
+        },
+        "MX": {}
+    },
+    "vimeo.com": {
+        "A": {
+            "IPv4": [
+                "151.101.64.217",
+                "151.101.192.217",
+                "151.101.0.217",
+                "151.101.128.217"
+            ],
+            "exchange": [
+                "151.101.64.217"
+            ],
+            "preference": []
+        },
+        "AAAA": {},
+        "NS": {
+            "names": [
+                "ns-1463.awsdns-54.org.",
+                "ns-70.awsdns-08.com.",
+                "ns-682.awsdns-21.net.",
+                "ns-1886.awsdns-43.co.uk."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "10",
+                "5",
+                "5",
+                "1",
+                "10"
+            ],
+            "preference": [
+                "aspmx2.googlemail.com.",
+                "alt2.aspmx.l.google.com.",
+                "alt1.aspmx.l.google.com.",
+                "aspmx.l.google.com.",
+                "aspmx3.googlemail.com."
+            ]
+        }
+    },
+    "plus.google.com": {
+        "A": {
+            "IPv4": [
+                "172.217.21.46"
+            ],
+            "exchange": [
+                "172.217.21.46"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2a00:1450:4019:80d::200e"
+            ]
+        },
+        "NS": {},
+        "MX": {
+            "exchange": [
+                "10",
+                "40",
+                "50",
+                "20",
+                "30"
+            ],
+            "preference": [
+                "aspmx.l.google.com.",
+                "alt3.aspmx.l.google.com.",
+                "alt4.aspmx.l.google.com.",
+                "alt1.aspmx.l.google.com.",
+                "alt2.aspmx.l.google.com."
+            ]
+        }
+    },
+    "sites.google.com": {
+        "A": {
+            "IPv4": [
+                "142.250.181.78"
+            ],
+            "exchange": [
+                "142.250.181.78"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2a00:1450:4019:80d::200e"
+            ]
+        },
+        "NS": {},
+        "MX": {}
+    },
+    "mozilla.org": {
+        "A": {
+            "IPv4": [
+                "44.236.72.93",
+                "44.236.48.31",
+                "44.235.246.155"
+            ],
+            "exchange": [
+                "44.236.72.93"
+            ],
+            "preference": []
+        },
+        "AAAA": {},
+        "NS": {
+            "names": [
+                "ns7-66.akam.net.",
+                "ns4-64.akam.net.",
+                "ns5-65.akam.net.",
+                "ns1-240.akam.net."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "10",
+                "5",
+                "1",
+                "5"
+            ],
+            "preference": [
+                "aspmx3.googlemail.com.",
+                "alt1.aspmx.l.google.com.",
+                "aspmx.l.google.com.",
+                "alt2.aspmx.l.google.com."
+            ]
+        }
+    },
+    "accounts.google.com": {
+        "A": {
+            "IPv4": [
+                "142.250.181.77"
+            ],
+            "exchange": [
+                "142.250.181.77"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2a00:1450:4019:80b::200d"
+            ]
+        },
+        "NS": {},
+        "MX": {
+            "exchange": [
+                "40",
+                "20",
+                "30",
+                "10",
+                "5"
+            ],
+            "preference": [
+                "alt4.gmr-smtp-in.l.google.com.",
+                "alt2.gmr-smtp-in.l.google.com.",
+                "alt3.gmr-smtp-in.l.google.com.",
+                "alt1.gmr-smtp-in.l.google.com.",
+                "gmr-smtp-in.l.google.com."
+            ]
+        }
+    },
+    "europa.eu": {
+        "A": {
+            "IPv4": [
+                "147.67.210.45",
+                "147.67.34.45"
+            ],
+            "exchange": [
+                "147.67.210.45"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2a01:7080:14:100::666:45",
+                "2a01:7080:24:100::666:45"
+            ]
+        },
+        "NS": {
+            "names": [
+                "ns2lux.europa.eu.",
+                "ns3bru.europa.eu.",
+                "ns2eu.bt.net.",
+                "ns1lux.europa.eu.",
+                "ns4az2.europa.eu.",
+                "ns1.bt.net.",
+                "ns1bru.europa.eu.",
+                "ns4az1.europa.eu.",
+                "ns3lux.europa.eu.",
+                "ns2bru.europa.eu."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "10",
+                "10"
+            ],
+            "preference": [
+                "mxb-00244802.gslb.pphosted.com.",
+                "mxa-00244802.gslb.pphosted.com."
+            ]
+        }
+    },
+    "drive.google.com": {
+        "A": {
+            "IPv4": [
+                "172.217.19.14"
+            ],
+            "exchange": [
+                "172.217.19.14"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2a00:1450:4019:80d::200e"
+            ]
+        },
+        "NS": {},
+        "MX": {
+            "exchange": [
+                "5",
+                "10",
+                "40",
+                "30",
+                "20"
+            ],
+            "preference": [
+                "gmr-smtp-in.l.google.com.",
+                "alt1.gmr-smtp-in.l.google.com.",
+                "alt4.gmr-smtp-in.l.google.com.",
+                "alt3.gmr-smtp-in.l.google.com.",
+                "alt2.gmr-smtp-in.l.google.com."
+            ]
+        }
+    },
+    "bbc.co.uk": {
+        "A": {
+            "IPv4": [
+                "151.101.128.81",
+                "151.101.192.81",
+                "151.101.0.81",
+                "151.101.64.81"
+            ],
+            "exchange": [
+                "151.101.128.81"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2a04:4e42:600::81",
+                "2a04:4e42:200::81",
+                "2a04:4e42::81",
+                "2a04:4e42:400::81"
+            ]
+        },
+        "NS": {
+            "names": [
+                "ddns0.bbc.com.",
+                "dns1.bbc.co.uk.",
+                "dns1.bbc.com.",
+                "dns0.bbc.com.",
+                "ddns1.bbc.com.",
+                "ddns0.bbc.co.uk.",
+                "dns0.bbc.co.uk.",
+                "ddns1.bbc.co.uk."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "10",
+                "20"
+            ],
+            "preference": [
+                "cluster1.eu.messagelabs.com.",
+                "cluster1a.eu.messagelabs.com."
+            ]
+        }
+    },
+    "medium.com": {
+        "A": {
+            "IPv4": [
+                "162.159.153.4",
+                "162.159.152.4"
+            ],
+            "exchange": [
+                "162.159.153.4"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2606:4700:7::a29f:9904",
+                "2606:4700:7::a29f:9804"
+            ]
+        },
+        "NS": {
+            "names": [
+                "alina.ns.cloudflare.com.",
+                "kip.ns.cloudflare.com."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "5",
+                "10",
+                "5",
+                "1",
+                "10"
+            ],
+            "preference": [
+                "alt2.aspmx.l.google.com.",
+                "aspmx2.googlemail.com.",
+                "alt1.aspmx.l.google.com.",
+                "aspmx.l.google.com.",
+                "aspmx3.googlemail.com."
+            ]
+        }
+    },
+    "github.com": {
+        "A": {
+            "IPv4": [
+                "13.234.210.38"
+            ],
+            "exchange": [
+                "13.234.210.38"
+            ],
+            "preference": []
+        },
+        "AAAA": {},
+        "NS": {
+            "names": [
+                "ns-520.awsdns-01.net.",
+                "dns2.p08.nsone.net.",
+                "ns-1707.awsdns-21.co.uk.",
+                "dns1.p08.nsone.net.",
+                "dns3.p08.nsone.net.",
+                "ns-421.awsdns-52.com.",
+                "dns4.p08.nsone.net.",
+                "ns-1283.awsdns-32.org."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "10",
+                "5",
+                "1",
+                "10",
+                "5"
+            ],
+            "preference": [
+                "alt3.aspmx.l.google.com.",
+                "alt1.aspmx.l.google.com.",
+                "aspmx.l.google.com.",
+                "alt4.aspmx.l.google.com.",
+                "alt2.aspmx.l.google.com."
+            ]
+        }
+    },
+    "es.wikipedia.org": {
+        "A": {
+            "IPv4": [
+                "103.102.166.224"
+            ],
+            "exchange": [
+                "103.102.166.224"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2001:df2:e500:ed1a::1"
+            ]
+        },
+        "NS": {},
+        "MX": {}
+    },
+    "wikipedia.org": {
+        "A": {
+            "IPv4": [
+                "103.102.166.224"
+            ],
+            "exchange": [
+                "103.102.166.224"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2001:df2:e500:ed1a::1"
+            ]
+        },
+        "NS": {
+            "names": [
+                "ns2.wikimedia.org.",
+                "ns0.wikimedia.org.",
+                "ns1.wikimedia.org."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "50",
+                "10"
+            ],
+            "preference": [
+                "mx2001.wikimedia.org.",
+                "mx1001.wikimedia.org."
+            ]
+        }
+    },
+    "facebook.com": {
+        "A": {
+            "IPv4": [
+                "157.240.227.35"
+            ],
+            "exchange": [
+                "157.240.227.35"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2a03:2880:f167:81:face:b00c:0:25de"
+            ]
+        },
+        "NS": {
+            "names": [
+                "d.ns.facebook.com.",
+                "c.ns.facebook.com.",
+                "b.ns.facebook.com.",
+                "a.ns.facebook.com."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "10"
+            ],
+            "preference": [
+                "smtpin.vvv.facebook.com."
+            ]
+        }
+    },
+    "bp.blogspot.com": {
+        "A": {},
+        "AAAA": {},
+        "NS": {},
+        "MX": {}
+    },
+    "amazon.com": {
+        "A": {
+            "IPv4": [
+                "176.32.103.205",
+                "54.239.28.85",
+                "205.251.242.103"
+            ],
+            "exchange": [
+                "176.32.103.205"
+            ],
+            "preference": []
+        },
+        "AAAA": {},
+        "NS": {
+            "names": [
+                "pdns1.ultradns.net.",
+                "ns2.p31.dynect.net.",
+                "ns1.p31.dynect.net.",
+                "ns4.p31.dynect.net.",
+                "ns3.p31.dynect.net.",
+                "pdns6.ultradns.co.uk."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "5"
+            ],
+            "preference": [
+                "amazon-smtp.amazon.com."
+            ]
+        }
+    },
+    "uol.com.br": {
+        "A": {},
+        "AAAA": {},
+        "NS": {
+            "names": [
+                "ns.stormfiber.com."
+            ]
+        },
+        "MX": {}
+    },
+    "line.me": {
+        "A": {
+            "IPv4": [
+                "203.104.138.138"
+            ],
+            "exchange": [
+                "203.104.138.138"
+            ],
+            "preference": []
+        },
+        "AAAA": {},
+        "NS": {
+            "names": [
+                "adns2.naver.com.",
+                "ns2.naver.jp.",
+                "ns1.naver.jp.",
+                "adns1.naver.com."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "100",
+                "10",
+                "100",
+                "100"
+            ],
+            "preference": [
+                "mx3-common.line-apps.com.",
+                "mx-common.line-apps.com.",
+                "mx1-common.line-apps.com.",
+                "mx2-common.line-apps.com."
+            ]
+        }
+    },
+    "istockphoto.com": {
+        "A": {
+            "IPv4": [
+                "13.35.183.88",
+                "13.35.183.65",
+                "13.35.183.103",
+                "13.35.183.92"
+            ],
+            "exchange": [
+                "13.35.183.88"
+            ],
+            "preference": []
+        },
+        "AAAA": {},
+        "NS": {
+            "names": [
+                "ns-1600.awsdns-08.co.uk.",
+                "ns-194.awsdns-24.com.",
+                "ns-692.awsdns-22.net.",
+                "ns-1269.awsdns-30.org."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "10",
+                "10"
+            ],
+            "preference": [
+                "us-smtp-inbound-2.mimecast.com.",
+                "us-smtp-inbound-1.mimecast.com."
+            ]
+        }
+    },
+    "vk.com": {
+        "A": {
+            "IPv4": [
+                "93.186.225.208",
+                "87.240.190.78",
+                "87.240.139.194",
+                "87.240.190.67",
+                "87.240.190.72",
+                "87.240.137.158"
+            ],
+            "exchange": [
+                "93.186.225.208"
+            ],
+            "preference": []
+        },
+        "AAAA": {},
+        "NS": {
+            "names": [
+                "ns3.vkontakte.ru.",
+                "ns4.vkontakte.ru.",
+                "ns1.vkontakte.ru.",
+                "ns2.vkontakte.ru."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "0",
+                "20"
+            ],
+            "preference": [
+                "mx.vk.com.",
+                "mx2.vk.com."
+            ]
+        }
+    },
+    "brandbucket.com": {
+        "A": {
+            "IPv4": [
+                "104.22.7.216",
+                "104.22.6.216",
+                "172.67.4.41"
+            ],
+            "exchange": [
+                "104.22.7.216"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2606:4700:10::ac43:429",
+                "2606:4700:10::6816:7d8",
+                "2606:4700:10::6816:6d8"
+            ]
+        },
+        "NS": {
+            "names": [
+                "erin.ns.cloudflare.com.",
+                "max.ns.cloudflare.com."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "10",
+                "50",
+                "40",
+                "30",
+                "20"
+            ],
+            "preference": [
+                "aspmx.l.google.com.",
+                "aspmx3.googlemail.com.",
+                "aspmx2.googlemail.com.",
+                "alt2.aspmx.l.google.com.",
+                "alt1.aspmx.l.google.com."
+            ]
+        }
+    },
+    "creativecommons.org": {
+        "A": {
+            "IPv4": [
+                "104.20.150.16",
+                "172.67.34.140",
+                "104.20.151.16"
+            ],
+            "exchange": [
+                "104.20.150.16"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2606:4700:10::6814:9610",
+                "2606:4700:10::6814:9710",
+                "2606:4700:10::ac43:228c"
+            ]
+        },
+        "NS": {
+            "names": [
+                "isaac.ns.cloudflare.com.",
+                "fiona.ns.cloudflare.com."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "10",
+                "60",
+                "50",
+                "5",
+                "70",
+                "5",
+                "1",
+                "80"
+            ],
+            "preference": [
+                "alt3.aspmx.l.google.com.",
+                "aspmx3.googlemail.com.",
+                "aspmx2.googlemail.com.",
+                "alt2.aspmx.l.google.com.",
+                "aspmx4.googlemail.com.",
+                "alt1.aspmx.l.google.com.",
+                "aspmx.l.google.com.",
+                "aspmx5.googlemail.com."
+            ]
+        }
+    },
+    "google.com.br": {
+        "A": {
+            "IPv4": [
+                "216.58.209.131"
+            ],
+            "exchange": [
+                "216.58.209.131"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2a00:1450:4018:804::2003"
+            ]
+        },
+        "NS": {
+            "names": [
+                "ns4.google.com.",
+                "ns2.google.com.",
+                "ns1.google.com.",
+                "ns3.google.com."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "50",
+                "30",
+                "20",
+                "40",
+                "10"
+            ],
+            "preference": [
+                "alt4.aspmx.l.google.com.",
+                "alt2.aspmx.l.google.com.",
+                "alt1.aspmx.l.google.com.",
+                "alt3.aspmx.l.google.com.",
+                "aspmx.l.google.com."
+            ]
+        }
+    },
+    "theguardian.com": {
+        "A": {
+            "IPv4": [
+                "151.101.1.111",
+                "151.101.65.111",
+                "151.101.129.111",
+                "151.101.193.111"
+            ],
+            "exchange": [
+                "151.101.1.111"
+            ],
+            "preference": []
+        },
+        "AAAA": {},
+        "NS": {
+            "names": [
+                "ns03.theguardiandns.com.",
+                "ns02.theguardiandns.com.",
+                "dns1.p04.nsone.net.",
+                "dns3.p04.nsone.net.",
+                "dns2.p04.nsone.net.",
+                "ns04.theguardiandns.com.",
+                "ns01.theguardiandns.com.",
+                "dns4.p04.nsone.net."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "30",
+                "20",
+                "30",
+                "20",
+                "10"
+            ],
+            "preference": [
+                "alt4.aspmx.l.google.com.",
+                "alt2.aspmx.l.google.com.",
+                "alt3.aspmx.l.google.com.",
+                "alt1.aspmx.l.google.com.",
+                "aspmx.l.google.com."
+            ]
+        }
+    },
+    "paypal.com": {
+        "A": {
+            "IPv4": [
+                "64.4.250.37",
+                "64.4.250.36"
+            ],
+            "exchange": [
+                "64.4.250.37"
+            ],
+            "preference": []
+        },
+        "AAAA": {},
+        "NS": {
+            "names": [
+                "ns1.p57.dynect.net.",
+                "pdns100.ultradns.net.",
+                "pdns100.ultradns.com.",
+                "ns2.p57.dynect.net."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "10",
+                "10"
+            ],
+            "preference": [
+                "mx2.paypalcorp.com.",
+                "mx1.paypalcorp.com."
+            ]
+        }
+    },
+    "opera.com": {
+        "A": {
+            "IPv4": [
+                "185.26.182.104",
+                "185.26.182.103"
+            ],
+            "exchange": [
+                "185.26.182.104"
+            ],
+            "preference": []
+        },
+        "AAAA": {},
+        "NS": {
+            "names": [
+                "nic4.opera.com.",
+                "nic2.opera.com.",
+                "nic1.opera.com.",
+                "nic3.opera.com.",
+                "nic6.opera.com."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "10",
+                "10"
+            ],
+            "preference": [
+                "mxi2.opera.com.",
+                "mxi-us.opera.com."
+            ]
+        }
+    },
+    "dailymotion.com": {
+        "A": {
+            "IPv4": [
+                "195.8.215.136"
+            ],
+            "exchange": [
+                "195.8.215.136"
+            ],
+            "preference": []
+        },
+        "AAAA": {},
+        "NS": {
+            "names": [
+                "a.dailymotion.com.",
+                "b.dailymotion.com."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "10"
+            ],
+            "preference": [
+                "dailymotion-com.mail.protection.outlook.com."
+            ]
+        }
+    },
+    "dropbox.com": {
+        "A": {
+            "IPv4": [
+                "162.125.248.18"
+            ],
+            "exchange": [
+                "162.125.248.18"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2620:100:6040:18::a27d:f812"
+            ]
+        },
+        "NS": {
+            "names": [
+                "ns-1162.awsdns-17.org.",
+                "ns-315.awsdns-39.com.",
+                "ns-1949.awsdns-51.co.uk.",
+                "ns-564.awsdns-06.net."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "10",
+                "10",
+                "5",
+                "1",
+                "5"
+            ],
+            "preference": [
+                "alt4.aspmx.l.google.com.",
+                "alt3.aspmx.l.google.com.",
+                "alt2.aspmx.l.google.com.",
+                "aspmx.l.google.com.",
+                "alt1.aspmx.l.google.com."
+            ]
+        }
+    },
+    "mail.ru": {
+        "A": {
+            "IPv4": [
+                "94.100.180.201",
+                "94.100.180.200",
+                "217.69.139.202",
+                "217.69.139.200"
+            ],
+            "exchange": [
+                "94.100.180.201"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2a00:1148:db00:0:b0b0::1"
+            ]
+        },
+        "NS": {
+            "names": [
+                "ns2.mail.ru.",
+                "ns1.mail.ru.",
+                "ns3.mail.ru."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "10"
+            ],
+            "preference": [
+                "mxs.mail.ru."
+            ]
+        }
+    },
+    "whatsapp.com": {
+        "A": {
+            "IPv4": [
+                "157.240.227.60"
+            ],
+            "exchange": [
+                "157.240.227.60"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2a03:2880:f267:cd:face:b00c:0:167"
+            ]
+        },
+        "NS": {
+            "names": [
+                "d.ns.whatsapp.net.",
+                "a.ns.whatsapp.net.",
+                "b.ns.whatsapp.net.",
+                "c.ns.whatsapp.net."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "10",
+                "10"
+            ],
+            "preference": [
+                "mxb-00082601.gslb.pphosted.com.",
+                "mxa-00082601.gslb.pphosted.com."
+            ]
+        }
+    },
+    "imdb.com": {
+        "A": {
+            "IPv4": [
+                "52.94.237.74",
+                "52.94.228.167",
+                "52.94.225.248"
+            ],
+            "exchange": [
+                "52.94.237.74"
+            ],
+            "preference": []
+        },
+        "AAAA": {},
+        "NS": {
+            "names": [
+                "pdns6.ultradns.co.uk.",
+                "pdns4.ultradns.org.",
+                "ns4.p31.dynect.net.",
+                "pdns2.ultradns.net.",
+                "ns3.p31.dynect.net.",
+                "ns2.p31.dynect.net.",
+                "pdns3.ultradns.org.",
+                "pdns1.ultradns.net.",
+                "ns1.p31.dynect.net.",
+                "pdns5.ultradns.info."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "10"
+            ],
+            "preference": [
+                "amazon-smtp.amazon.com."
+            ]
+        }
+    },
+    "globo.com": {
+        "A": {
+            "IPv4": [
+                "186.192.90.12"
+            ],
+            "exchange": [
+                "186.192.90.12"
+            ],
+            "preference": []
+        },
+        "AAAA": {},
+        "NS": {
+            "names": [
+                "ns04.globo.com.",
+                "ns02.globo.com.",
+                "ns01.globo.com.",
+                "ns03.globo.com."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "5",
+                "20",
+                "10"
+            ],
+            "preference": [
+                "mx.globo.locaweb.com.br.",
+                "mx3.globo.locaweb.com.br.",
+                "mx2.globo.locaweb.com.br."
+            ]
+        }
+    },
+    "policies.google.com": {
+        "A": {
+            "IPv4": [
+                "142.250.181.78"
+            ],
+            "exchange": [
+                "142.250.181.78"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2a00:1450:4019:80b::200e"
+            ]
+        },
+        "NS": {},
+        "MX": {
+            "exchange": [
+                "40",
+                "20",
+                "5",
+                "10",
+                "30"
+            ],
+            "preference": [
+                "alt4.gmr-smtp-in.l.google.com.",
+                "alt2.gmr-smtp-in.l.google.com.",
+                "gmr-smtp-in.l.google.com.",
+                "alt1.gmr-smtp-in.l.google.com.",
+                "alt3.gmr-smtp-in.l.google.com."
+            ]
+        }
+    },
+    "nih.gov": {
+        "A": {
+            "IPv4": [
+                "54.235.145.223"
+            ],
+            "exchange": [
+                "54.235.145.223"
+            ],
+            "preference": []
+        },
+        "AAAA": {},
+        "NS": {
+            "names": [
+                "ns3.nih.gov.",
+                "ns.nih.gov.",
+                "ns2.nih.gov."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10",
+                "10"
+            ],
+            "preference": [
+                "nihcesxwayst05.hub.nih.gov.",
+                "nihcesxwayst04.hub.nih.gov.",
+                "nihcesxway3.hub.nih.gov.",
+                "nihcesxway4.hub.nih.gov.",
+                "nihcesxwayst03.hub.nih.gov.",
+                "nihcesxwayst06.hub.nih.gov.",
+                "nihcesxway5.hub.nih.gov.",
+                "nihcesxway6.hub.nih.gov."
+            ]
+        }
+    },
+    "developers.google.com": {
+        "A": {
+            "IPv4": [
+                "172.217.19.14"
+            ],
+            "exchange": [
+                "172.217.19.14"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2a00:1450:4019:80d::200e"
+            ]
+        },
+        "NS": {},
+        "MX": {}
+    },
+    "abril.com.br": {
+        "A": {
+            "IPv4": [
+                "192.0.66.160"
+            ],
+            "exchange": [
+                "192.0.66.160"
+            ],
+            "preference": []
+        },
+        "AAAA": {},
+        "NS": {
+            "names": [
+                "abddns02.abrdigital.com.br.",
+                "abddns01.abrdigital.com.br."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "5",
+                "5",
+                "10",
+                "1",
+                "10"
+            ],
+            "preference": [
+                "alt2.aspmx.l.google.com.",
+                "alt1.aspmx.l.google.com.",
+                "alt4.aspmx.l.google.com.",
+                "aspmx.l.google.com.",
+                "alt3.aspmx.l.google.com."
+            ]
+        }
+    },
+    "slideshare.ne": {
+        "A": {
+            "IPv4": [
+                "127.0.0.1"
+            ],
+            "exchange": [
+                "127.0.0.1"
+            ],
+            "preference": []
+        },
+        "AAAA": {},
+        "NS": {},
+        "MX": {}
+    },
+    "wikimedia.org": {
+        "A": {
+            "IPv4": [
+                "103.102.166.224"
+            ],
+            "exchange": [
+                "103.102.166.224"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2001:df2:e500:ed1a::1"
+            ]
+        },
+        "NS": {
+            "names": [
+                "ns2.wikimedia.org.",
+                "ns1.wikimedia.org.",
+                "ns0.wikimedia.org."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "10",
+                "50"
+            ],
+            "preference": [
+                "mx1001.wikimedia.org.",
+                "mx2001.wikimedia.org."
+            ]
+        }
+    },
+    "msn.com": {
+        "A": {
+            "IPv4": [
+                "13.82.28.61"
+            ],
+            "exchange": [
+                "13.82.28.61"
+            ],
+            "preference": []
+        },
+        "AAAA": {},
+        "NS": {
+            "names": [
+                "ns4-204.azure-dns.info.",
+                "ns2-204.azure-dns.net.",
+                "ns1-204.azure-dns.com.",
+                "ns3-204.azure-dns.org.",
+                "dns3.p09.nsone.net."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "2"
+            ],
+            "preference": [
+                "msn-com.olc.protection.outlook.com."
+            ]
+        }
+    },
+    "forbes.com": {
+        "A": {
+            "IPv4": [
+                "151.101.194.49",
+                "151.101.130.49",
+                "151.101.66.49",
+                "151.101.2.49"
+            ],
+            "exchange": [
+                "151.101.194.49"
+            ],
+            "preference": []
+        },
+        "AAAA": {},
+        "NS": {
+            "names": [
+                "ns-1028.awsdns-00.org.",
+                "ns-979.awsdns-58.net.",
+                "ns-217.awsdns-27.com.",
+                "ns-1637.awsdns-12.co.uk."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "10",
+                "10"
+            ],
+            "preference": [
+                "us-smtp-inbound-1.mimecast.com.",
+                "us-smtp-inbound-2.mimecast.com."
+            ]
+        }
+    },
+    "google.es": {
+        "A": {
+            "IPv4": [
+                "216.58.209.131"
+            ],
+            "exchange": [
+                "216.58.209.131"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2a00:1450:4019:803::2003"
+            ]
+        },
+        "NS": {
+            "names": [
+                "ns4.google.com.",
+                "ns2.google.com.",
+                "ns3.google.com.",
+                "ns1.google.com."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "40",
+                "30",
+                "10",
+                "50",
+                "20"
+            ],
+            "preference": [
+                "alt3.aspmx.l.google.com.",
+                "alt2.aspmx.l.google.com.",
+                "aspmx.l.google.com.",
+                "alt4.aspmx.l.google.com.",
+                "alt1.aspmx.l.google.com."
+            ]
+        }
+    },
+    "w3.org": {
+        "A": {
+            "IPv4": [
+                "128.30.52.100"
+            ],
+            "exchange": [
+                "128.30.52.100"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2603:400a:ffff:804:801e:34:0:64"
+            ]
+        },
+        "NS": {
+            "names": [
+                "ns3.w3.org.",
+                "ns2.w3.org.",
+                "ns1.w3.org."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "10",
+                "10",
+                "50"
+            ],
+            "preference": [
+                "titan.w3.org.",
+                "mimas.w3.org.",
+                "bart.w3.org."
+            ]
+        }
+    },
+    "gstatic.com": {
+        "A": {
+            "IPv4": [
+                "142.250.181.67"
+            ],
+            "exchange": [
+                "142.250.181.67"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2a00:1450:4018:800::2003"
+            ]
+        },
+        "NS": {
+            "names": [
+                "ns4.google.com.",
+                "ns3.google.com.",
+                "ns2.google.com.",
+                "ns1.google.com."
+            ]
+        },
+        "MX": {}
+    },
+    "mail.google.com": {
+        "A": {
+            "IPv4": [
+                "216.58.207.101"
+            ],
+            "exchange": [
+                "216.58.207.101"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2a00:1450:4019:803::2005"
+            ]
+        },
+        "NS": {},
+        "MX": {}
+    },
+    "mediafire.com": {
+        "A": {
+            "IPv4": [
+                "104.16.202.237",
+                "104.16.203.237"
+            ],
+            "exchange": [
+                "104.16.202.237"
+            ],
+            "preference": []
+        },
+        "AAAA": {},
+        "NS": {
+            "names": [
+                "ken.ns.cloudflare.com.",
+                "lisa.ns.cloudflare.com."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "1",
+                "5",
+                "5",
+                "10",
+                "10"
+            ],
+            "preference": [
+                "aspmx.l.google.com.",
+                "alt2.aspmx.l.google.com.",
+                "alt1.aspmx.l.google.com.",
+                "aspmx3.googlemail.com.",
+                "aspmx2.googlemail.com."
+            ]
+        }
+    },
+    "issuu.com": {
+        "A": {
+            "IPv4": [
+                "52.20.124.135",
+                "18.213.127.201",
+                "34.193.232.123",
+                "34.194.19.48",
+                "54.210.240.178",
+                "54.152.25.93"
+            ],
+            "exchange": [
+                "52.20.124.135"
+            ],
+            "preference": []
+        },
+        "AAAA": {},
+        "NS": {
+            "names": [
+                "ns-1343.awsdns-39.org.",
+                "ns-1582.awsdns-05.co.uk.",
+                "ns-426.awsdns-53.com.",
+                "ns-757.awsdns-30.net."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "20",
+                "10",
+                "40",
+                "30",
+                "50"
+            ],
+            "preference": [
+                "alt1.aspmx.l.google.com.",
+                "aspmx.l.google.com.",
+                "aspmx2.googlemail.com.",
+                "alt2.aspmx.l.google.com.",
+                "aspmx3.googlemail.com."
+            ]
+        }
+    },
+    "get.google.com": {
+        "A": {
+            "IPv4": [
+                "142.250.181.142"
+            ],
+            "exchange": [
+                "142.250.181.142"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2a00:1450:4019:801::200e"
+            ]
+        },
+        "NS": {},
+        "MX": {}
+    },
+    "nytimes.com": {
+        "A": {
+            "IPv4": [
+                "151.101.129.164",
+                "151.101.1.164",
+                "151.101.65.164",
+                "151.101.193.164"
+            ],
+            "exchange": [
+                "151.101.129.164"
+            ],
+            "preference": []
+        },
+        "AAAA": {},
+        "NS": {
+            "names": [
+                "ns5.dnsmadeeasy.com.",
+                "dns4.p06.nsone.net.",
+                "dns1.p06.nsone.net.",
+                "ns6.dnsmadeeasy.com.",
+                "dns3.p06.nsone.net.",
+                "dns2.p06.nsone.net.",
+                "ns7.dnsmadeeasy.com."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "5",
+                "1",
+                "10",
+                "10",
+                "5"
+            ],
+            "preference": [
+                "alt1.aspmx.l.google.com.",
+                "aspmx.l.google.com.",
+                "alt4.aspmx.l.google.com.",
+                "alt3.aspmx.l.google.com.",
+                "alt2.aspmx.l.google.com."
+            ]
+        }
+    },
+    "jimdofree.com": {
+        "A": {
+            "IPv4": [
+                "151.101.130.217",
+                "151.101.2.217",
+                "151.101.66.217",
+                "151.101.194.217"
+            ],
+            "exchange": [
+                "151.101.130.217"
+            ],
+            "preference": []
+        },
+        "AAAA": {},
+        "NS": {
+            "names": [
+                "ns-1299.awsdns-34.org.",
+                "ns-1966.awsdns-53.co.uk.",
+                "ns-462.awsdns-57.com.",
+                "ns-790.awsdns-34.net."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "10"
+            ],
+            "preference": [
+                "inbound-smtp.eu-west-1.amazonaws.com."
+            ]
+        }
+    },
+    "ugedomains.com": {
+        "A": {
+            "IPv4": [
+                "45.207.211.203"
+            ],
+            "exchange": [
+                "45.207.211.203"
+            ],
+            "preference": []
+        },
+        "AAAA": {},
+        "NS": {
+            "names": [
+                "ns64.domaincontrol.com.",
+                "ns63.domaincontrol.com."
+            ]
+        },
+        "MX": {}
+    },
+    "google.co.jp": {
+        "A": {
+            "IPv4": [
+                "216.58.207.3"
+            ],
+            "exchange": [
+                "216.58.207.3"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2a00:1450:4019:802::2003"
+            ]
+        },
+        "NS": {
+            "names": [
+                "ns2.google.com.",
+                "ns3.google.com.",
+                "ns4.google.com.",
+                "ns1.google.com."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "40",
+                "20",
+                "50",
+                "10",
+                "30"
+            ],
+            "preference": [
+                "alt3.aspmx.l.google.com.",
+                "alt1.aspmx.l.google.com.",
+                "alt4.aspmx.l.google.com.",
+                "aspmx.l.google.com.",
+                "alt2.aspmx.l.google.com."
+            ]
+        }
+    },
+    "yahoo.com": {
+        "A": {
+            "IPv4": [
+                "74.6.231.20",
+                "74.6.143.26",
+                "98.137.11.163",
+                "98.137.11.164",
+                "74.6.143.25",
+                "74.6.231.21"
+            ],
+            "exchange": [
+                "74.6.231.20"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2001:4998:124:1507::f001",
+                "2001:4998:44:3507::8001",
+                "2001:4998:24:120d::1:1",
+                "2001:4998:24:120d::1:0",
+                "2001:4998:44:3507::8000",
+                "2001:4998:124:1507::f000"
+            ]
+        },
+        "NS": {
+            "names": [
+                "ns3.yahoo.com.",
+                "ns1.yahoo.com.",
+                "ns4.yahoo.com.",
+                "ns5.yahoo.com.",
+                "ns2.yahoo.com."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "1",
+                "1",
+                "1"
+            ],
+            "preference": [
+                "mta5.am0.yahoodns.net.",
+                "mta7.am0.yahoodns.net.",
+                "mta6.am0.yahoodns.net."
+            ]
+        }
+    },
+    "myspace.com": {
+        "A": {
+            "IPv4": [
+                "63.135.90.70"
+            ],
+            "exchange": [
+                "63.135.90.70"
+            ],
+            "preference": []
+        },
+        "AAAA": {},
+        "NS": {
+            "names": [
+                "ns-cloud-d4.googledomains.com.",
+                "ns-cloud-d3.googledomains.com.",
+                "ns-cloud-d2.googledomains.com.",
+                "ns-cloud-d1.googledomains.com."
+            ]
+        },
+        "MX": {}
+    },
+    "google.de": {
+        "A": {
+            "IPv4": [
+                "172.217.18.131"
+            ],
+            "exchange": [
+                "172.217.18.131"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2a00:1450:4018:800::2003"
+            ]
+        },
+        "NS": {
+            "names": [
+                "ns3.google.com.",
+                "ns2.google.com.",
+                "ns1.google.com.",
+                "ns4.google.com."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "10",
+                "20",
+                "40",
+                "30",
+                "50"
+            ],
+            "preference": [
+                "aspmx.l.google.com.",
+                "alt1.aspmx.l.google.com.",
+                "alt3.aspmx.l.google.com.",
+                "alt2.aspmx.l.google.com.",
+                "alt4.aspmx.l.google.com."
+            ]
+        }
+    },
+    "reuters.com": {
+        "A": {
+            "IPv4": [
+                "52.2.61.110"
+            ],
+            "exchange": [
+                "52.2.61.110"
+            ],
+            "preference": []
+        },
+        "AAAA": {},
+        "NS": {
+            "names": [
+                "ns-amers-1.thomsonreuters.net.",
+                "ns-apac-2.thomsonreuters.net.",
+                "ns-emea-1.thomsonreuters.net.",
+                "ns-apac-1.thomsonreuters.net.",
+                "ns-amers-2.thomsonreuters.net.",
+                "ns-emea-2.thomsonreuters.net."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "10"
+            ],
+            "preference": [
+                "reuters-com.mail.protection.outlook.com."
+            ]
+        }
+    },
+    "fr.wikipedia.org": {
+        "A": {
+            "IPv4": [
+                "103.102.166.224"
+            ],
+            "exchange": [
+                "103.102.166.224"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2001:df2:e500:ed1a::1"
+            ]
+        },
+        "NS": {},
+        "MX": {}
+    },
+    "feedburner.com": {
+        "A": {
+            "IPv4": [
+                "216.58.209.142"
+            ],
+            "exchange": [
+                "216.58.209.142"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2a00:1450:4018:804::200e"
+            ]
+        },
+        "NS": {
+            "names": [
+                "ns3.google.com.",
+                "ns2.google.com.",
+                "ns1.google.com.",
+                "ns4.google.com."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "10",
+                "20",
+                "30",
+                "40",
+                "50"
+            ],
+            "preference": [
+                "aspmx.l.google.com.",
+                "alt1.aspmx.l.google.com.",
+                "alt2.aspmx.l.google.com.",
+                "alt3.aspmx.l.google.com.",
+                "alt4.aspmx.l.google.com."
+            ]
+        }
+    },
+    "bbc.com": {
+        "A": {
+            "IPv4": [
+                "151.101.64.81",
+                "151.101.0.81",
+                "151.101.192.81",
+                "151.101.128.81"
+            ],
+            "exchange": [
+                "151.101.64.81"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2a04:4e42:200::81",
+                "2a04:4e42:400::81",
+                "2a04:4e42:600::81",
+                "2a04:4e42::81"
+            ]
+        },
+        "NS": {
+            "names": [
+                "ddns1.bbc.co.uk.",
+                "ddns0.bbc.co.uk.",
+                "dns0.bbc.com.",
+                "dns0.bbc.co.uk.",
+                "dns1.bbc.co.uk.",
+                "ddns0.bbc.com.",
+                "dns1.bbc.com.",
+                "ddns1.bbc.com."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "10",
+                "20"
+            ],
+            "preference": [
+                "cluster8.eu.messagelabs.com.",
+                "cluster8a.eu.messagelabs.com."
+            ]
+        }
+    },
+    "news.google.com": {
+        "A": {
+            "IPv4": [
+                "142.250.181.142"
+            ],
+            "exchange": [
+                "142.250.181.142"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2a00:1450:4019:80d::200e"
+            ]
+        },
+        "NS": {},
+        "MX": {}
+    },
+    "cnn.com": {
+        "A": {
+            "IPv4": [
+                "151.101.65.67",
+                "151.101.1.67",
+                "151.101.193.67",
+                "151.101.129.67"
+            ],
+            "exchange": [
+                "151.101.65.67"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2a04:4e42::323",
+                "2a04:4e42:600::323",
+                "2a04:4e42:400::323",
+                "2a04:4e42:200::323"
+            ]
+        },
+        "NS": {
+            "names": [
+                "ns-1086.awsdns-07.org.",
+                "ns-576.awsdns-08.net.",
+                "ns-47.awsdns-05.com.",
+                "ns-1630.awsdns-11.co.uk."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "10",
+                "10"
+            ],
+            "preference": [
+                "mxb-00241e02.gslb.pphosted.com.",
+                "mxa-00241e02.gslb.pphosted.com."
+            ]
+        }
+    },
+    ".me": {
+        "A": {},
+        "AAAA": {},
+        "NS": {},
+        "MX": {}
+    },
+    "live.com": {
+        "A": {
+            "IPv4": [
+                "204.79.197.212"
+            ],
+            "exchange": [
+                "204.79.197.212"
+            ],
+            "preference": []
+        },
+        "AAAA": {},
+        "NS": {
+            "names": [
+                "ns3-34.azure-dns.org.",
+                "nse24.o365filtering.com.",
+                "ns1-34.azure-dns.com.",
+                "nse21.o365filtering.com.",
+                "nse13.o365filtering.com.",
+                "nse12.o365filtering.com.",
+                "ns4-34.azure-dns.info.",
+                "ns2-34.azure-dns.net."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "2"
+            ],
+            "preference": [
+                "live-com.olc.protection.outlook.com."
+            ]
+        }
+    },
+    "scribd.com": {
+        "A": {
+            "IPv4": [
+                "151.101.2.152",
+                "151.101.194.152",
+                "151.101.130.152",
+                "151.101.66.152"
+            ],
+            "exchange": [
+                "151.101.2.152"
+            ],
+            "preference": []
+        },
+        "AAAA": {},
+        "NS": {
+            "names": [
+                "ns3.p23.dynect.net.",
+                "ns4.p23.dynect.net.",
+                "ns1.p23.dynect.net.",
+                "ns2.p23.dynect.net."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "30",
+                "50",
+                "20",
+                "10",
+                "40"
+            ],
+            "preference": [
+                "ALT2.ASPMX.L.GOOGLE.com.",
+                "ASPMX3.GOOGLEMAIL.com.",
+                "ALT1.ASPMX.L.GOOGLE.com.",
+                "ASPMX.L.GOOGLE.com.",
+                "ASPMX2.GOOGLEMAIL.com."
+            ]
+        }
+    },
+    "cpanel.com": {
+        "A": {
+            "IPv4": [
+                "208.74.123.84",
+                "208.74.121.151"
+            ],
+            "exchange": [
+                "208.74.123.84"
+            ],
+            "preference": []
+        },
+        "AAAA": {},
+        "NS": {
+            "names": [
+                "mn.cpanel.net.",
+                "c.cpanel.net.",
+                "hg.cpanel.net."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "10",
+                "0"
+            ],
+            "preference": [
+                "mx1.cpanel.net.",
+                "mx2.cpanel.net."
+            ]
+        }
+    },
+    "ft.com": {
+        "A": {
+            "IPv4": [
+                "151.101.194.109",
+                "151.101.66.109",
+                "151.101.2.109",
+                "151.101.130.109"
+            ],
+            "exchange": [
+                "151.101.194.109"
+            ],
+            "preference": []
+        },
+        "AAAA": {},
+        "NS": {
+            "names": [
+                "ns-1984.awsdns-56.co.uk.",
+                "ns-530.awsdns-02.net.",
+                "ns-1447.awsdns-52.org.",
+                "ns-52.awsdns-06.com."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "20",
+                "20",
+                "30",
+                "10",
+                "30"
+            ],
+            "preference": [
+                "alt1.aspmx.l.google.com.",
+                "alt2.aspmx.l.google.com.",
+                "alt4.aspmx.l.google.com.",
+                "aspmx.l.google.com.",
+                "alt3.aspmx.l.google.com."
+            ]
+        }
+    },
+    "usatoday.com": {
+        "A": {
+            "IPv4": [
+                "199.232.46.62"
+            ],
+            "exchange": [
+                "199.232.46.62"
+            ],
+            "preference": []
+        },
+        "AAAA": {},
+        "NS": {
+            "names": [
+                "ns04.gannett-dns.com.",
+                "dns2.p04.nsone.net.",
+                "dns4.p04.nsone.net.",
+                "dns1.p04.nsone.net.",
+                "ns01.gannett-dns.com.",
+                "ns03.gannett-dns.com.",
+                "ns02.gannett-dns.com.",
+                "dns3.p04.nsone.net."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "200",
+                "200"
+            ],
+            "preference": [
+                "us-smtp-inbound-2.mimecast.com.",
+                "us-smtp-inbound-1.mimecast.com."
+            ]
+        }
+    },
+    "samsung.com": {
+        "A": {
+            "IPv4": [
+                "211.45.27.231"
+            ],
+            "exchange": [
+                "211.45.27.231"
+            ],
+            "preference": []
+        },
+        "AAAA": {},
+        "NS": {
+            "names": [
+                "dnsst.samsung.com.",
+                "dns-gi1.samsung.com.",
+                "dnsst2.samsung.com.",
+                "dnssm2.samsung.com.",
+                "dnssm.samsung.com."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "10"
+            ],
+            "preference": [
+                "mailin.samsung.com."
+            ]
+        }
+    },
+    "themeforest.net": {
+        "A": {
+            "IPv4": [
+                "104.18.31.233",
+                "104.18.30.233"
+            ],
+            "exchange": [
+                "104.18.31.233"
+            ],
+            "preference": []
+        },
+        "AAAA": {},
+        "NS": {
+            "names": [
+                "fred.ns.cloudflare.com.",
+                "emma.ns.cloudflare.com."
+            ]
+        },
+        "MX": {}
+    },
+    "translate.google.com": {
+        "A": {
+            "IPv4": [
+                "172.217.21.46"
+            ],
+            "exchange": [
+                "172.217.21.46"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2a00:1450:4019:805::200e"
+            ]
+        },
+        "NS": {},
+        "MX": {}
+    },
+    "indiatimes.com": {
+        "A": {
+            "IPv4": [
+                "118.214.108.85"
+            ],
+            "exchange": [
+                "118.214.108.85"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2600:1417:5e:689::3621",
+                "2600:1417:5e:695::3621"
+            ]
+        },
+        "NS": {
+            "names": [
+                "a2-65.akam.net.",
+                "a13-64.akam.net.",
+                "a1-127.akam.net.",
+                "a9-64.akam.net.",
+                "a26-66.akam.net."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "5"
+            ],
+            "preference": [
+                "bounce.indiatimes.com."
+            ]
+        }
+    },
+    "lefigaro.fr": {
+        "A": {
+            "IPv4": [
+                "23.44.5.35",
+                "23.44.5.122"
+            ],
+            "exchange": [
+                "23.44.5.35"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2a02:26f0:7100::687e:24e0",
+                "2a02:26f0:7100::687e:24f8"
+            ]
+        },
+        "NS": {
+            "names": [
+                "a8-65.akam.net.",
+                "a1-194.akam.net.",
+                "a16-64.akam.net.",
+                "a3-64.akam.net.",
+                "a2-67.akam.net.",
+                "a5-67.akam.net."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "50",
+                "50",
+                "10",
+                "10"
+            ],
+            "preference": [
+                "rsmtp2.le-figaro.com.",
+                "rsmtp1.le-figaro.com.",
+                "mail2.groupefigaro.com.",
+                "mail1.groupefigaro.com."
+            ]
+        }
+    },
+    "amazon.co.jp": {
+        "A": {
+            "IPv4": [
+                "52.119.168.48",
+                "52.119.164.121",
+                "52.119.161.5"
+            ],
+            "exchange": [
+                "52.119.168.48"
+            ],
+            "preference": []
+        },
+        "AAAA": {},
+        "NS": {
+            "names": [
+                "pdns6.ultradns.co.uk.",
+                "pdns4.ultradns.org.",
+                "ns4.p31.dynect.net.",
+                "ns2.p31.dynect.net.",
+                "pdns1.ultradns.net.",
+                "ns1.p31.dynect.net.",
+                "pdns2.ultradns.net.",
+                "pdns3.ultradns.org.",
+                "ns3.p31.dynect.net.",
+                "pdns5.ultradns.info."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "10"
+            ],
+            "preference": [
+                "amazon-smtp.amazon.com."
+            ]
+        }
+    },
+    "dailymail.co.uk": {
+        "A": {
+            "IPv4": [
+                "23.35.81.163"
+            ],
+            "exchange": [
+                "23.35.81.163"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2a02:26f0:129:386::16c2",
+                "2a02:26f0:129:384::16c2"
+            ]
+        },
+        "NS": {
+            "names": [
+                "a16-67.akam.net.",
+                "a1-204.akam.net.",
+                "a7-66.akam.net.",
+                "a4-67.akam.net.",
+                "a6-64.akam.net.",
+                "a24-65.akam.net."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "10",
+                "50",
+                "50"
+            ],
+            "preference": [
+                "dailymail-co-uk.mail.protection.outlook.com.",
+                "eu-smtp-inbound-2.mimecast.com.",
+                "eu-smtp-inbound-1.mimecast.com."
+            ]
+        }
+    },
+    "washingtonpost.com": {
+        "A": {
+            "IPv4": [
+                "54.230.151.17",
+                "54.230.151.36",
+                "54.230.151.46",
+                "54.230.151.12"
+            ],
+            "exchange": [
+                "54.230.151.17"
+            ],
+            "preference": []
+        },
+        "AAAA": {},
+        "NS": {
+            "names": [
+                "ns-666.awsdns-19.net.",
+                "ns-404.awsdns-50.com.",
+                "ns-1840.awsdns-38.co.uk.",
+                "sdns34.ultradns.com.",
+                "ns-1027.awsdns-00.org.",
+                "sdns34.ultradns.net.",
+                "sdns34.ultradns.org.",
+                "sdns34.ultradns.biz."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "10",
+                "10"
+            ],
+            "preference": [
+                "mxb-001a3c01.gslb.pphosted.com.",
+                "mxa-001a3c01.gslb.pphosted.com."
+            ]
+        }
+    },
+    "id.wikipedia.org": {
+        "A": {
+            "IPv4": [
+                "103.102.166.224"
+            ],
+            "exchange": [
+                "103.102.166.224"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2001:df2:e500:ed1a::1"
+            ]
+        },
+        "NS": {},
+        "MX": {}
+    },
+    "webmd.com": {
+        "A": {
+            "IPv4": [
+                "207.231.204.56"
+            ],
+            "exchange": [
+                "207.231.204.56"
+            ],
+            "preference": []
+        },
+        "AAAA": {},
+        "NS": {
+            "names": [
+                "amir.ns.cloudflare.com.",
+                "vita.ns.cloudflare.com."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "5",
+                "5",
+                "10",
+                "10",
+                "1"
+            ],
+            "preference": [
+                "alt2.aspmx.l.google.com.",
+                "alt1.aspmx.l.google.com.",
+                "alt4.aspmx.l.google.com.",
+                "alt3.aspmx.l.google.com.",
+                "aspmx.l.google.com."
+            ]
+        }
+    },
+    "dan.com": {
+        "A": {
+            "IPv4": [
+                "52.28.84.253"
+            ],
+            "exchange": [
+                "52.28.84.253"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2a05:d014:9da:8c10:306e:3e07:a16f:a552"
+            ]
+        },
+        "NS": {
+            "names": [
+                "emma.ns.cloudflare.com.",
+                "will.ns.cloudflare.com."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "5",
+                "10",
+                "10",
+                "5",
+                "1"
+            ],
+            "preference": [
+                "alt2.aspmx.l.google.com.",
+                "aspmx2.googlemail.com.",
+                "aspmx3.googlemail.com.",
+                "alt1.aspmx.l.google.com.",
+                "aspmx.l.google.com."
+            ]
+        }
+    },
+    "afternic.com": {
+        "A": {
+            "IPv4": [
+                "208.109.4.32"
+            ],
+            "exchange": [
+                "208.109.4.32"
+            ],
+            "preference": []
+        },
+        "AAAA": {},
+        "NS": {
+            "names": [
+                "cns2.secureserver.net.",
+                "cns1.secureserver.net."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "10"
+            ],
+            "preference": [
+                "Afternic-com.mail.protection.outlook.com."
+            ]
+        }
+    },
+    "draft.blogger.com": {
+        "A": {
+            "IPv4": [
+                "142.250.181.105"
+            ],
+            "exchange": [
+                "142.250.181.105"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2a00:1450:4019:80c::2009"
+            ]
+        },
+        "NS": {},
+        "MX": {}
+    },
+    "youronlinechoices.com": {
+        "A": {
+            "IPv4": [
+                "35.158.107.63"
+            ],
+            "exchange": [
+                "35.158.107.63"
+            ],
+            "preference": []
+        },
+        "AAAA": {},
+        "NS": {
+            "names": [
+                "ns42.domaincontrol.com.",
+                "ns41.domaincontrol.com."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "10",
+                "5",
+                "5",
+                "1",
+                "10"
+            ],
+            "preference": [
+                "ALT4.ASPMX.L.GOOGLE.com.",
+                "ALT2.ASPMX.L.GOOGLE.com.",
+                "ALT1.ASPMX.L.GOOGLE.com.",
+                "ASPMX.L.GOOGLE.com.",
+                "ALT3.ASPMX.L.GOOGLE.com."
+            ]
+        }
+    },
+    "weebly.com": {
+        "A": {
+            "IPv4": [
+                "74.115.50.109",
+                "74.115.50.110"
+            ],
+            "exchange": [
+                "74.115.50.109"
+            ],
+            "preference": []
+        },
+        "AAAA": {},
+        "NS": {
+            "names": [
+                "ns-646.awsdns-16.net.",
+                "dns2.p01.nsone.net.",
+                "dns3.p01.nsone.net.",
+                "dns1.p01.nsone.net.",
+                "ns-123.awsdns-15.com.",
+                "ns-1500.awsdns-59.org."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "20",
+                "20",
+                "20",
+                "20",
+                "10"
+            ],
+            "preference": [
+                "aspmx3.googlemail.com.",
+                "alt1.aspmx.l.google.com.",
+                "alt2.aspmx.l.google.com.",
+                "aspmx2.googlemail.com.",
+                "aspmx.l.google.com."
+            ]
+        }
+    },
+    "files.wordpress.com": {
+        "A": {
+            "IPv4": [
+                "192.0.72.2"
+            ],
+            "exchange": [
+                "192.0.72.2"
+            ],
+            "preference": []
+        },
+        "AAAA": {},
+        "NS": {
+            "names": [
+                "mdns2.wordpress.com.",
+                "mdns3.wordpress.com.",
+                "mdns4.wordpress.com.",
+                "mdns1.wordpress.com."
+            ]
+        },
+        "MX": {}
+    },
+    "google.co.uk": {
+        "A": {
+            "IPv4": [
+                "142.250.181.67"
+            ],
+            "exchange": [
+                "142.250.181.67"
+            ],
+            "preference": []
+        },
+        "AAAA": {
+            "IPv6": [
+                "2a00:1450:4018:803::2003"
+            ]
+        },
+        "NS": {
+            "names": [
+                "ns3.google.com.",
+                "ns2.google.com.",
+                "ns1.google.com.",
+                "ns4.google.com."
+            ]
+        },
+        "MX": {
+            "exchange": [
+                "30",
+                "50",
+                "20",
+                "10",
+                "40"
+            ],
+            "preference": [
+                "alt2.aspmx.l.google.com.",
+                "alt4.aspmx.l.google.com.",
+                "alt1.aspmx.l.google.com.",
+                "aspmx.l.google.com.",
+                "alt3.aspmx.l.google.com."
+            ]
+        }
+    },
+    "esun.co.uk": {
+        "A": {
+            "IPv4": [
+                "185.53.177.31"
+            ],
+            "exchange": [
+                "185.53.177.31"
+            ],
+            "preference": []
+        },
+        "AAAA": {},
+        "NS": {
+            "names": [
+                "ns1.fabulous.com.",
+                "ns2.fabulous.com."
+            ]
+        },
+        "MX": {}
+    }
+}
