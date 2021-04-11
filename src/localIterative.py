@@ -10,10 +10,7 @@ load_dotenv()  # take environment variables from .env.
 # CONFIGURATIONS
 HOSTNAME = str(os.environ['HOSTNAME'])
 ROOT_DOMAIN_PORT = int(os.environ['ROOT_DOMAIN_PORT'])
-TOP_LEVEL_DOMAIN_PORT = int(os.environ['TOP_LEVEL_DOMAIN_PORT'])
-AUTHORITATIVE_DOMAIN_PORT = int(os.environ['AUTHORITATIVE_DOMAIN_PORT'])
 BYTES_TO_RECEIVE = int(os.environ['BYTES_TO_RECEIVE'])
-IDENTIFICATION_COUNTER = str(os.environ['IDENTIFICATION_COUNTER'])
 CACHE_FILE_LOCATION = str(os.environ['CACHE_FILE'])
 
 while True:

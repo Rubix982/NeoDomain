@@ -7,7 +7,7 @@ import socket
 # Unable to find a way to do relative imports
 # Resorting to prepanding the PYTHON PATH ENV
 # with the path where the module exists
-sys.path.insert(1, '/home/saif/Desktop/DNS/src/models')
+sys.path.insert(1, str(os.environ['MODEL_PATH'])
 
 from DNSMessageCacheHandler import DNSMessageCacheHandler
 from dotenv import load_dotenv
