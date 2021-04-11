@@ -64,7 +64,7 @@ while True:
     # # Indicates the information received
     response = str(client.recv(BYTES_TO_RECEIVE))
 
-    if '400' in response:
+    if '400: Bad request' in response:
         print(response)
         sys.exit(1)
 
@@ -94,7 +94,7 @@ while True:
     # # Indicates the information received
     response = str(client.recv(BYTES_TO_RECEIVE))
 
-    if '400' in response:
+    if '400: Bad request' in response:
         print(response)
         sys.exit(1)
 
@@ -122,7 +122,7 @@ while True:
     # # Indicates the information received
     response = str(client.recv(BYTES_TO_RECEIVE))
 
-    if '400' in response:
+    if '400: Bad request' in response:
         print(response)
         sys.exit(1)
 
