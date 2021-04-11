@@ -1,126 +1,13 @@
 {
-    "amazon.com": {
+    "wordpress.org": {
         "A": {
             "IPv4": [
-                "54.239.28.85",
-                "205.251.242.103",
-                "176.32.103.205"
+                "198.143.164.252"
             ]
         },
         "NS": {
             "names": [
-                "amazon-smtp.amazon.com."
-            ]
-        }
-    },
-    "apple.com": {
-        "A": {
-            "IPv4": [
-                "17.253.144.10"
-            ]
-        },
-        "NS": {
-            "names": [
-                "rn-mailsvcp-ppex-lapp34.apple.com.",
-                "ma1-aaemail-dr-lapp02.apple.com.",
-                "rn-mailsvcp-ppex-lapp44.apple.com.",
-                "rn-mailsvcp-ppex-lapp15.apple.com.",
-                "ma1-aaemail-dr-lapp01.apple.com.",
-                "rn-mailsvcp-ppex-lapp24.apple.com.",
-                "rn-mailsvcp-ppex-lapp45.apple.com.",
-                "rn-mailsvcp-ppex-lapp14.apple.com.",
-                "ma1-aaemail-dr-lapp03.apple.com.",
-                "rn-mailsvcp-ppex-lapp35.apple.com."
-            ]
-        }
-    },
-    "google.com": {
-        "A": {
-            "IPv4": [
-                "172.217.19.14"
-            ]
-        },
-        "NS": {
-            "names": [
-                "2a00:1450:4019:800::200e"
-            ]
-        },
-        "MX": {
-            "preferences": [
-                "alt2.aspmx.l.google.com.",
-                "alt4.aspmx.l.google.com.",
-                "alt3.aspmx.l.google.com.",
-                "alt1.aspmx.l.google.com.",
-                "aspmx.l.google.com."
-            ]
-        }
-    },
-    "youtube.com": {
-        "A": {
-            "IPv4": [
-                "216.58.208.78"
-            ]
-        },
-        "NS": {
-            "names": [
-                "2a00:1450:4018:802::200e"
-            ]
-        },
-        "MX": {
-            "preferences": [
-                "alt1.aspmx.l.google.com.",
-                "aspmx.l.google.com.",
-                "alt3.aspmx.l.google.com.",
-                "alt2.aspmx.l.google.com.",
-                "alt4.aspmx.l.google.com."
-            ]
-        }
-    },
-    "linkedin.com": {
-        "A": {
-            "IPv4": [
-                "13.107.42.14"
-            ]
-        },
-        "NS": {
-            "names": [
-                "2620:1ec:21::14"
-            ]
-        },
-        "MX": {
-            "preferences": [
-                "mail.linkedin.com.",
-                "mail-c.linkedin.com.",
-                "mail-d.linkedin.com.",
-                "mail-a.linkedin.com."
-            ]
-        }
-    },
-    "support.google.com": {
-        "A": {
-            "IPv4": [
-                "216.58.207.14"
-            ]
-        },
-        "NS": {
-            "names": [
-                "2a00:1450:4019:802::200e"
-            ]
-        }
-    },
-    "github.com": {
-        "A": {
-            "IPv4": [
-                "13.234.210.38"
-            ]
-        },
-        "NS": {
-            "names": [
-                "alt4.aspmx.l.google.com.",
-                "aspmx.l.google.com.",
-                "alt3.aspmx.l.google.com.",
-                "alt1.aspmx.l.google.com.",
-                "alt2.aspmx.l.google.com."
+                "mail.wordpress.org."
             ]
         }
     }
