@@ -66,7 +66,7 @@ for name in domain_names:
             for data in answers.rrset:
                 JSON_dump[name][record]['names'].append(str(data))
 
-        else:
+        elif record == 'MX':
             JSON_dump[name][record]['exchange'], JSON_dump[name][record]['preference'] = [
             ], []
 
