@@ -1,78 +1,125 @@
 import socket
+import json
+import sys
+import os
+from DNSMessageCacheHandler import DNSMessageCacheHandler
+from dotenv import load_dotenv
+
+load_dotenv()  # take environment variables from .env.
 
 # CONFIGURATIONS
-HOSTNAME = 'localhost'
-ROOT_DOMAIN_PORT = 4043
-TOP_LEVEL_DOMAIN_PORT = 4044
-AUTHORITATIVE_DOMAIN_PORT = 4045
-BYTES_TO_RECEIVE = 4096
+HOSTNAME = str(os.environ['HOSTNAME'])
+ROOT_DOMAIN_PORT = int(os.environ['ROOT_DOMAIN_PORT'])
+TOP_LEVEL_DOMAIN_PORT = int(os.environ['TOP_LEVEL_DOMAIN_PORT'])
+AUTHORITATIVE_DOMAIN_PORT = int(os.environ['AUTHORITATIVE_DOMAIN_PORT'])
+BYTES_TO_RECEIVE = int(os.environ['BYTES_TO_RECEIVE'])
+IDENTIFICATION_COUNTER = str(os.environ['IDENTIFICATION_COUNTER'])
 
-# domainNameToFind = str(input("Enter domain name: "))
+while True:
+    websiteURL = str(input("Enter website hostname: "))
 
-# with open("cache.json", mode='r') as file:
-#     file.keys == domainNameToFind:
+    websiteDomain = websiteURL.split('.')[-1]
+    websiteHostname = '.'.join(websiteURL.split('.')[0:-1])
 
+    # with open("cache.json", mode='r') as file:
+    #     file.keys == domainNameToFind:
 
-# if data == None:
-#     print("Info does not exist in cache")
-# else:
+    # if data == None:
+    #     print("Info does not exist in cache")
+    # else:
 
-# Creating a new client with IPv4/TCP settings
-client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    # Creating a new client with IPv4/TCP settings
+    client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-# -----------------------------------
-# Connect to Root Level Domain
+    # -----------------------------------
+    # Connect to Root Level Domain
 
-# # Connection command
-client.connect((HOSTNAME, ROOT_DOMAIN_PORT))
+    # # Connection command
+    client.connect((HOSTNAME, ROOT_DOMAIN_PORT))
 
-# # Message to send
-client.send(b"I am Local DNS Server")
+    # # Construct object to send
 
-# # Indicats the information received
-print(str(client.recv(BYTES_TO_RECEIVE)))
+    ProtocolMessage: DNSMessageCacheHandler = DNSMessageCacheHandler()
+    ProtocolMessage.setWebsiteConfig(websiteHostname, websiteDomain)
+    ProtocolMessage.DefaultInit()
 
-# # Closing client connection with server
-client.close()
+    # # Message to send
+    client.send(ProtocolMessage.EncodeObject())
 
-# -----------------------------------
+    # # Indicates the information received
+    response = str(client.recv(BYTES_TO_RECEIVE))
 
-# -----------------------------------
-# Connect to Top Level
+    if '400' in response:
+        print(response)
+        sys.exit(1)
 
-# Creating a new client with IPv4/TCP settings
-client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    # # # Convert to dict
+    ProtocolMessage = DNSMessageCacheHandler(
+        **json.loads(f"{eval(response[1:])}"))
 
-# # Connection command
-client.connect((HOSTNAME, TOP_LEVEL_DOMAIN_PORT))
+    # # Closing client connection with server
+    client.close()
 
-# # Message to send
-client.send(b"I am Local DNS Server")
+    # -----------------------------------
 
-# # Indicates the information received
-print(str(client.recv(BYTES_TO_RECEIVE)))
+    # -----------------------------------
+    # Connect to Top Level
 
-# # Closing client connection with server
-client.close()
+    # Creating a new client with IPv4/TCP settings
+    client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-# -----------------------------------
+    # # Connection command
+    client.connect((HOSTNAME, int(ProtocolMessage.__dict__['answers'])))
 
-# -----------------------------------
-# Connect to Authoritative Domain
+    # # Constructing package to send
 
-# Creating a new client with IPv4/TCP settings
-client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    # # Message to send
+    client.send(ProtocolMessage.EncodeObject())
 
-# # Connection command
-client.connect((HOSTNAME, AUTHORITATIVE_DOMAIN_PORT))
+    # # Indicates the information received
+    response = str(client.recv(BYTES_TO_RECEIVE))
 
-# # Message to send
-client.send(b"I am Local DNS Server")
+    if '400' in response:
+        print(response)
+        sys.exit(1)
 
-# # Indicates the information received
-print(str(client.recv(BYTES_TO_RECEIVE)))
+    # # # Convert to dict
+    ProtocolMessage = DNSMessageCacheHandler(
+        **json.loads(f"{eval(response[1:])}"))
 
-# # Closing client connection with server
-client.close()
+    # # Closing client connection with server
+    client.close()
 
-# -----------------------------------
+    # -----------------------------------
+
+    # -----------------------------------
+    # Connect to Authoritative Domain
+
+    # Creating a new client with IPv4/TCP settings
+    client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+    # # Connection command
+    client.connect((HOSTNAME, int(ProtocolMessage.__dict__['answers'])))
+
+    # # Message to send
+    client.send(ProtocolMessage.EncodeObject())
+
+    # # Indicates the information received
+    response = str(client.recv(BYTES_TO_RECEIVE))
+
+    if '400' in response:
+        print(response)
+        sys.exit(1)
+
+    # # # Convert to dict
+    ProtocolMessage = DNSMessageCacheHandler(
+        **json.loads(f"{eval(response[1:])}"))
+
+    # # Closing client connection with server
+    client.close()
+
+    # -----------------------------------
+
+    print(ProtocolMessage.__dict__)
+
+    ProtocolMessage.DumpToCache('./cache.json')
