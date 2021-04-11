@@ -3,17 +3,17 @@ import os
 import sys
 import json
 import socket
+from dotenv import load_dotenv
+
+load_dotenv()  # take environment variables from .env
 
 # Unable to find a way to do relative imports
 # Resorting to prepanding the PYTHON PATH ENV
 # with the path where the module exists
-sys.path.insert(1, str(os.environ['MODEL_PATH'])
+sys.path.insert(1, str(os.environ['MODEL_PATH']))
 
 from DNSMessageCacheHandler import DNSMessageCacheHandler
-from dotenv import load_dotenv
 # pylint: enable=no-member
-
-load_dotenv()  # take environment variables from .env.
 
 DEBUG_MODE = str(os.environ['DEBUG'])
 
