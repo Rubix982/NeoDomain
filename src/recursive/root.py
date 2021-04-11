@@ -3,17 +3,17 @@ import os
 import sys
 import json
 import socket
+from dotenv import load_dotenv
+
+load_dotenv()  # take environment variables from .env
 
 # Unable to find a way to do relative imports
 # Resorting to prepanding the PYTHON PATH ENV
 # with the path where the module exists
-sys.path.insert(1, str(os.environ['MODEL_PATH'])
+sys.path.insert(1, str(os.environ['MODEL_PATH']))
 
 from DNSMessageCacheHandler import DNSMessageCacheHandler
-from dotenv import load_dotenv
 # pylint: enable=no-member
-
-load_dotenv()  # take environment variables from .env
 
 DEBUG_MODE=str(os.environ['DEBUG'])
 
@@ -37,9 +37,6 @@ serv.listen(5)
 while 1:
     conn, addr=serv.accept()
 
-    # Great client
-    conn.send(b"I am ROOT LEVEL DOMAIN")
-
     data=str(conn.recv(int(os.environ['BYTES_TO_RECEIVE'])))
 
     if not data:
@@ -48,6 +45,10 @@ while 1:
     # Bytes to DNSMessageCacheHandler Object
     ProtocolMessage: DNSMessageCacheHandler=DNSMessageCacheHandler(
         **json.loads(f"{eval(str(data)[1:])}"))
+
+    print('-----')
+    print('In Root - when received')
+    print(ProtocolMessage.__dict__)
 
     '''
     At this point in the code, the original client that made
@@ -97,12 +98,16 @@ while 1:
         question field set to the domain name
         '''
 
+        print('-----')
+        print('In Root - before sending to top')
+        print(ProtocolMessage.__dict__)
+
         client.send(ProtocolMessage.EncodeObject())
 
         # # Indicates the information received
-        response=str(client.recv(BYTES_TO_RECEIVE))
+        response=str(client.recv(int(os.environ['BYTES_TO_RECEIVE'])))
 
-        if '400' in response:
+        if '400: Bad request' in response:
             print(response)
             sys.exit(1)
 
@@ -110,9 +115,14 @@ while 1:
         ProtocolMessage=DNSMessageCacheHandler(
             **json.loads(f"{eval(response[1:])}"))
 
+        print('-----')
+        print('In Root - before sending to client')
+        print(ProtocolMessage.__dict__)
+
         conn.send(ProtocolMessage.EncodeObject())
     else:
         if DEBUG_MODE == 'ON':
+            print('----\nIn Debug!')
             print(
                 f"\"{ProtocolMessage.GetStrForWebsite()}\", \"{ProtocolMessage.GetStrForWebsiteHost()}\", \"{topLevelDomains}\"")
         conn.send(b"[ROOT_LEVEL_DOMAIN] 400: Bad request")
