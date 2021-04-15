@@ -1,13 +1,21 @@
 {
-    "wordpress.org": {
+    "linkedin.com": {
         "A": {
             "IPv4": [
-                "198.143.164.252"
+                "13.107.42.14"
             ]
         },
         "NS": {
             "names": [
-                "mail.wordpress.org."
+                "2620:1ec:21::14"
+            ]
+        },
+        "MX": {
+            "preferences": [
+                "mail.linkedin.com.",
+                "mail-c.linkedin.com.",
+                "mail-d.linkedin.com.",
+                "mail-a.linkedin.com."
             ]
         }
     }
