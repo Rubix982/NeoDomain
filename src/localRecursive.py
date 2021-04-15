@@ -44,7 +44,7 @@ while True:
     # not in the cache
 
     # Creating a new client with IPv4/TCP setting
-    client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     # -----------------------------------
     # Connect to Root Level Domain
 
