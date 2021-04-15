@@ -44,7 +44,7 @@ while True:
     # not in the cache
 
     # Creating a new client with IPv4/TCP settings
-    client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
     # -----------------------------------
     # Connect to Root Level Domain
@@ -81,7 +81,7 @@ while True:
     # Connect to Top Level
 
     # Creating a new client with IPv4/TCP settings
-    client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
     # # Connection command
     client.connect((HOSTNAME, int(ProtocolMessage.__dict__['answers'])))
@@ -111,7 +111,7 @@ while True:
     # Connect to Authoritative Domain
 
     # Creating a new client with IPv4/TCP settings
-    client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
     # # Connection command
     client.connect((HOSTNAME, int(ProtocolMessage.__dict__['answers'])))
