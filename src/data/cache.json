@@ -18,5 +18,86 @@
                 "mail-a.linkedin.com."
             ]
         }
+    },
+    "google.com": {
+        "A": {
+            "IPv4": [
+                "172.217.19.14"
+            ]
+        },
+        "NS": {
+            "names": [
+                "2a00:1450:4019:800::200e"
+            ]
+        },
+        "MX": {
+            "preferences": [
+                "alt2.aspmx.l.google.com.",
+                "alt4.aspmx.l.google.com.",
+                "alt3.aspmx.l.google.com.",
+                "alt1.aspmx.l.google.com.",
+                "aspmx.l.google.com."
+            ]
+        }
+    },
+    "blogger.com": {
+        "A": {
+            "IPv4": [
+                "216.58.209.137"
+            ]
+        },
+        "NS": {
+            "names": [
+                "2a00:1450:4019:806::2009"
+            ]
+        },
+        "MX": {
+            "preferences": [
+                "alt1.gmr-smtp-in.l.google.com.",
+                "gmr-smtp-in.l.google.com.",
+                "alt2.gmr-smtp-in.l.google.com."
+            ]
+        }
+    },
+    "adobe.com": {
+        "A": {
+            "IPv4": [
+                "192.147.130.204",
+                "193.104.215.58"
+            ]
+        },
+        "NS": {
+            "names": [
+                "2400:adc0:21::3a41:c053",
+                "2400:adc0:21::3a41:c049"
+            ]
+        },
+        "MX": {
+            "preferences": [
+                "adobe.mail.protection.outlook.com.",
+                "adobe-com.mail.protection.outlook.com."
+            ]
+        }
+    },
+    "cloudflare.com": {
+        "A": {
+            "IPv4": [
+                "104.16.133.229",
+                "104.16.132.229"
+            ]
+        },
+        "NS": {
+            "names": [
+                "2606:4700::6810:84e5",
+                "2606:4700::6810:85e5"
+            ]
+        },
+        "MX": {
+            "preferences": [
+                "mailstream-central.mxrecord.mx.",
+                "mailstream-west.mxrecord.io.",
+                "mailstream-east.mxrecord.io."
+            ]
+        }
     }
 }
