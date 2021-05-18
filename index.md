@@ -12,7 +12,7 @@ To start the iterative model,
 4. Enter the hostname to fetch data for in the terminal tab for `iterative.py`
 5. See results
 
-![Iterative](assets/img/1.png)
+![Iterative](https://raw.githubusercontent.com/Rubix982/NeoDomain/main/assets/img/1.png)
 
 ## Recursive Model
 
@@ -22,4 +22,4 @@ To start the iterative model,
 4. Enter the hostname to fetch data for in the terminal tab for `recursive.py`
 5. See results
 
-![Iterative](assets/img/2.png)
+![Iterative](https://raw.githubusercontent.com/Rubix982/NeoDomain/main/assets/img/2.png)
