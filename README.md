@@ -1,6 +1,6 @@
-# Computer Networking - Assignment# 2
+# NeoDomain
 
-This repository is the implemented solution for the 2nd CN assignment.
+A local DNS server implementation of the Iterative and the Recursive models using Python.
 
 ## Iterative Model
 
