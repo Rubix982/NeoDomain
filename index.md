@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+# NeoDomain
 
-You can use the [editor on GitHub](https://github.com/Rubix982/NeoDomain/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+A local DNS server implementation of the Iterative and the Recursive models using Python.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Iterative Model
 
-### Markdown
+To start the iterative model,
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+1. Open a terminal tab, and `cd` into `src`
+2. Run `python3 iterative.py` to start the local iterative server
+3. For the `root`, `top`, and `authoritative` servers, open a termainal tab for each, and start each of them using `python3`.
+4. Enter the hostname to fetch data for in the terminal tab for `iterative.py`
+5. See results
 
-```markdown
-Syntax highlighted code block
+![Iterative](assets/img/1.png)
 
-# Header 1
-## Header 2
-### Header 3
+## Recursive Model
 
-- Bulleted
-- List
+1. Open a terminal tab, and `cd` into `src`
+2. Run `python3 recursive.py` to start the local recursive server
+3. For the `root`, `top`, and `authoritative` servers, open a termainal tab for each, and start each of them using `python3`.
+4. Enter the hostname to fetch data for in the terminal tab for `recursive.py`
+5. See results
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Rubix982/NeoDomain/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+![Iterative](assets/img/2.png)
